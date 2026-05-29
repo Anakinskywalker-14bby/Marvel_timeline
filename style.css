@@ -1,0 +1,34 @@
+body {
+  background-color: #0F1110;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  color: #FFFFFF;
+}
+
+header {
+  background-color: #1A1A1A; 
+  border-bottom: 3px solid #CC0033;
+  text-align: center;
+  padding: 20px;
+}
+
+button {
+  background-color: #CC0033;
+  color: white;
+  border: none;
+  font-weight: bold;
+  padding: 15px 30px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #990033;
+}
+
+#timeline {
+  background-color: #181818;
+  border-left: 4px solid #CC0033;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+}
